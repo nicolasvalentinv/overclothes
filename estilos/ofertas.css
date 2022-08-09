@@ -1,0 +1,180 @@
+@font-face {
+    font-family: CercoDEMO-Medium;
+    src: url(/fuentes/CercoDEMO-Medium.otf);
+}
+  
+@font-face {
+    font-family: CercoDEMO-Regular;
+    src: url(/fuentes/CercoDEMO-Regular.otf);
+}
+  
+@font-face {
+    font-family: CercoDEMO-Light;
+    src: url(/fuentes/CercoDEMO-Light.otf);
+}
+
+.navbar-toggler{
+    border-color: #0A6BA4 !important;
+}
+  
+.button-style:hover{
+    background-color: #333333;
+    color: white !important;
+}
+  
+.navbar-nav{
+    font-family: CercoDEMO-Regular;
+}
+  
+.navbar-nav li{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+  
+  
+.text{
+    font-weight: bold;
+    font-family: CercoDEMO-Regular;
+}
+  
+  
+.box{
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+  
+.titulo{
+    font-family: CercoDEMO-Medium;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    font-size: 18pt;
+    color: rgb(37, 37, 37);
+}
+  
+.subtitulo{
+    font-family: CercoDEMO-Medium;
+    font-size: 20pt;
+}
+  
+.frase{
+    font-family: CercoDEMO-Light;
+    font-size: 12pt;
+}
+
+.card-text{
+    font-family: CercoDEMO-Light;
+    color: rgb(56, 56, 56);
+    font-size: 10pt;
+}
+  
+.list-group-item{
+    font-family: CercoDEMO-Regular;
+    font-size: 10pt;
+}
+  
+.btn{
+    font-family: CercoDEMO-Medium;
+    font-size: 10pt;
+}
+  
+.container_flex{
+    background-color: rgb(10, 107, 164);
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px;
+}
+  
+.card-text{
+    font-family: CercoDEMO-Light;
+    color: rgb(51, 51, 51);
+    font-size: 9pt;
+    text-align: center;
+}
+
+.container_flex1{
+    background-color: rgb(227, 244, 255);
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.imagen{
+    position: relative;
+    left: 150px;
+}
+  
+.form-label{
+    font-family: CercoDEMO-Regular;
+}
+
+.boton{
+    background-color: rgb(222, 77, 203);
+    color: rgb(255, 255, 255);
+    font-family: CercoDEMO-Regular;
+    font-size: 10pt;
+    border-radius: 30px;
+    border: 0px solid rgb(222, 77, 203);
+    padding: 15px 15px;
+    }
+    
+.form{
+    border-radius: 3px;
+    text-align: center;
+}
+    
+.card-title{
+    font-family: CercoDEMO-Medium;
+    color: rgb(10, 107, 164);
+    font-size: 12pt;
+    text-align: center;
+}
+  
+.card-text{
+    font-family: CercoDEMO-Light;
+    color: rgb(51, 51, 51);
+    font-size: 9pt;
+    text-align: center;
+}
+  
+.box4{
+    text-align: center;
+}
+  
+.box5{
+    text-align: center;
+    font-family: CercoDEMO-Regular;
+    font-size: 10pt;
+}
+  
+.container_flex2{
+    background-color: rgb(10, 107, 164);
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.box7{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font: 20px;
+}
+  
+.box8{
+    color: rgb(255, 255, 255);
+    font-family: CercoDEMO-Regular;
+    text-align: center;
+    font-size: 12px;
+}
+  
+.padre{
+    background-color: rgb(10, 107, 164);
+    font-family: CercoDEMO-Regular;
+    width: 100%;
+    font-size: 8pt;
+    color: white;
+    text-align: center;
+}
