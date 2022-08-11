@@ -216,3 +216,15 @@ html, body {
   height: 6rem;
   width: 100px;
 }
+
+.img-carousel{
+  height: 60vh;
+}
+
+
+
+@media (max-width:550px){
+  .img-carousel{
+    height: 45vh;
+  }
+}

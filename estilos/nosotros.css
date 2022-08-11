@@ -1,0 +1,67 @@
+@font-face {
+  font-family: CercoDEMO-Medium;
+  src: url(/fuentes/CercoDEMO-Medium.otf);
+}
+
+@font-face {
+  font-family: CercoDEMO-Regular;
+  src: url(/fuentes/CercoDEMO-Regular.otf);
+}
+
+@font-face {
+  font-family: CercoDEMO-Light;
+  src: url(/fuentes/CercoDEMO-Light.otf);
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+  
+.text{
+  font-weight: bold;
+  font-family: CercoDEMO-Regular;
+}
+
+.img.m-1{
+  justify-content: center;
+}
+
+.img-logo{
+  height: 6rem;
+  width: 100px;
+}
+
+
+.tituloStyle{
+  margin-left: 10px;
+  color: #7a6d49;
+  font-size: 1.3rem;
+}
+
+.navbar-brand, .navbar-brand:hover, .navbar-brand:visited{
+  color: #7a6d49;
+}
+
+
+.navbar-toggler{
+  border-color: #0A6BA4 !important;
+}
+
+
+.button-style{
+  font-size: 1.3rem;
+  color: #7a6d49;
+  margin-right: 2rem;
+}
+
+.button-style:hover{
+  background-color: #777676;
+  color: white !important;
+  border-radius: 1rem;
+}
+
+.navbar-nav li{
+  padding-left: 18px;
+  padding-right: 18px;
+}
