@@ -15,7 +15,7 @@
 
 html, body {
   max-width: 100%;
-  overflow-x: hidden;
+  overflow-x: none;
   font-family: CercoDEMO-Regular;
 }
   
@@ -108,12 +108,4 @@ html, body {
   background-color: #c4bfb1;
   height: 65vh;
   width: 100%;
-}
-.containerImgBeige{
-  display: flex;
-  justify-content: flex-end;
-}
-.imgBeige{
-  height: 65vh;
-  width: 40vw;
 }

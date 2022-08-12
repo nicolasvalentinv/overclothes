@@ -1,0 +1,210 @@
+@font-face {
+  font-family: CercoDEMO-Medium;
+  src: url(/fuentes/CercoDEMO-Medium.otf);
+}
+
+@font-face {
+  font-family: CercoDEMO-Regular;
+  src: url(/fuentes/CercoDEMO-Regular.otf);
+}
+
+@font-face {
+  font-family: CercoDEMO-Light;
+  src: url(/fuentes/CercoDEMO-Light.otf);
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: none;
+  font-family: CercoDEMO-Regular;
+}
+  
+.text{
+  font-weight: bold;
+  font-family: CercoDEMO-Regular;
+}
+
+.img.m-1{
+  justify-content: center;
+}
+
+.img-logo{
+  height: 6rem;
+  width: 100px;
+}
+
+
+.tituloStyle{
+  margin-left: 10px;
+  color: #7a6d49;
+  font-size: 1.3rem;
+}
+
+.navbar-brand, .navbar-brand:hover, .navbar-brand:visited{
+  color: #7a6d49;
+}
+
+
+.navbar-toggler{
+  border-color: #0A6BA4 !important;
+}
+
+
+.button-style{
+  font-size: 1.3rem;
+  color: #7a6d49;
+  margin-right: 2rem;
+}
+
+.button-style:hover{
+  background-color: #777676;
+  color: white !important;
+  border-radius: 1rem;
+}
+
+.navbar-nav li{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.box{
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.titulo{
+  font-family: CercoDEMO-Medium;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  font-size: 18pt;
+  color: rgb(37, 37, 37);
+}
+
+.subtitulo{
+  font-family: CercoDEMO-Medium;
+  font-size: 20pt;
+}
+
+.frase{
+  font-family: CercoDEMO-Light;
+  font-size: 12pt;
+}
+
+.container_flex1{
+  background-color: rgb(104, 104, 104);
+  color: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.imagen-email{
+  position: relative;
+  left: 120px;
+  bottom: 20px;
+}
+
+.boton{
+  background-color: rgb(26, 24, 25);
+  color: rgb(255, 255, 255);
+  font-family: CercoDEMO-Regular;
+  font-size: 10pt;
+  border-radius: 30px;
+  border: 0px solid rgb(83, 77, 58);
+  padding: 15px 15px;
+}
+
+.form{
+  border-radius: 3px;
+  text-align: center;
+}
+
+.card-text-footer{
+  font-family: CercoDEMO-light;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  font-size: 10pt;
+  color: rgb(37, 37, 37);
+}
+
+.box4{
+  text-align: center;
+  color: rgb(172, 172, 172);
+}
+
+.div-box5{
+  font-family: CercoDEMO-Medium;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  font-size: 18pt;
+  color: rgb(37, 37, 37);
+}
+
+.ul1{
+  font-family: CercoDEMO-Medium;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  font-size: 10pt;
+  color: rgba(3, 3, 3, 0.815);
+}
+
+.ul2{
+  font-family: CercoDEMO-Medium;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  font-size: 10pt;
+  color: rgba(2, 2, 2, 0.815);
+}
+
+.titulo-footer{
+  font-family: CercoDEMO-Medium;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  font-size: 16pt;
+  color: rgb(2, 2, 2);
+}
+
+.container_flex2{
+  background-color: rgb(243, 241, 212);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%
+}
+
+.box7{
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font: 20px;
+}
+
+.box8{
+  color: rgb(44, 44, 44);
+  font-family: CercoDEMO-Regular;
+  text-align: center;
+  font-size: 12px;
+}
+
+.padre{
+  background-color: rgb(45, 46, 46);
+  font-family: CercoDEMO-Regular;
+  font-size: 8pt;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.img-logo-footer{
+  position: relative;
+  left: 100px;
+  height: 6rem;
+  width: 100px;
+}
