@@ -13,6 +13,10 @@
   src: url(/fuentes/CercoDEMO-Light.otf);
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
   
 .text{
   font-weight: bold;
@@ -99,16 +103,20 @@
   height: 6rem;
   width: 100px;
 }
+
 .nosotrosInfo{
   background-color: #c4bfb1;
+  padding: 40px;
   height: 65vh;
   width: 100%;
 }
+
 .containerImgBeige{
   display: flex;
   justify-content: flex-end;
 }
-.imgBeige{
-  height: 65vh;
-  width: 40vw;
+
+.img-nosotros{
+  height: 530px;
+  width: 600px;
 }
