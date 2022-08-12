@@ -13,11 +13,6 @@
   src: url(/fuentes/CercoDEMO-Light.otf);
 }
 
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
-  font-family: CercoDEMO-Regular;
-}
   
 .text{
   font-weight: bold;
@@ -59,7 +54,7 @@ html, body {
 .button-style:hover{
   background-color: #777676;
   color: white !important;
-  border-radius: 1rem;
+  border-radius: 1.1rem;
 }
 
 .navbar-nav li{
