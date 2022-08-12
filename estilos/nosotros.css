@@ -13,10 +13,6 @@
   src: url(/fuentes/CercoDEMO-Light.otf);
 }
 
-html, body {
-  max-width: 100%;
-  overflow-x: none;
-}
   
 .text{
   font-weight: bold;
@@ -64,4 +60,55 @@ html, body {
 .navbar-nav li{
   padding-left: 18px;
   padding-right: 18px;
+}
+
+.container_flex2{
+  background-color: rgb(243, 241, 212);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%
+}
+
+.box7{
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font: 20px;
+}
+
+.box8{
+  color: rgb(44, 44, 44);
+  font-family: CercoDEMO-Regular;
+  text-align: center;
+  font-size: 12px;
+}
+
+.padre{
+  background-color: rgb(45, 46, 46);
+  font-family: CercoDEMO-Regular;
+  font-size: 8pt;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.img-logo-footer{
+  position: relative;
+  left: 100px;
+  height: 6rem;
+  width: 100px;
+}
+.nosotrosInfo{
+  background-color: #c4bfb1;
+  height: 65vh;
+  width: 100%;
+}
+.containerImgBeige{
+  display: flex;
+  justify-content: flex-end;
+}
+.imgBeige{
+  height: 65vh;
+  width: 40vw;
 }
